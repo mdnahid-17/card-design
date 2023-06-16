@@ -55,8 +55,8 @@
 
 span.right-hr {
     position: absolute;
-    right: -1px;
-    top: 5px;
+    right: -3px;
+    top: 7px;
     width: 15%;
     background: #FF7A00;
     height: 2px;
@@ -65,8 +65,8 @@ span.right-hr {
 
 span.bottom-hr {
     position: absolute;
-    right: -1px;
-    top: 40px;
+    right: -3px;
+    top: 41px;
     width: 15%;
     background: #FF7A00;
     height: 2px;
@@ -76,7 +76,7 @@ span.bottom-hr {
 
 
 .person {
-    width: 45%;
+    width: 60%;
     background: black;
     border: 1px solid #FF7A00;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 87% 100%, 0 100%, 0 42%);

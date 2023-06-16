@@ -1,0 +1,48 @@
+/* MOBAIL RESPONSIVE PART START */
+@media (max-width:575.98px) {
+
+    .button {
+        margin: auto;
+        width: 50%;
+        padding: 0 0 40px;
+    }
+
+    .person {
+        width: 100%;
+    }
+
+    .person-wrap {
+        display: block;
+    }
+
+    .review {
+        background: none;
+        clip-path: none;
+        padding: 0px 20px 0;
+        margin: 17px 0;
+    }
+
+    .name-info {
+        padding: 0px 40px 0 20px;
+    }
+
+    .border-left {
+        width: 0;
+    }
+
+    .border-bottom {
+        width: 0;
+    }
+
+    .border-shape {
+        width: 146px;
+        height: 85px;
+        position: absolute;
+        bottom: 10px;
+        right: -89px;
+        background: #FF7A00;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        transform: rotate(-16deg);
+    }
+
+}
