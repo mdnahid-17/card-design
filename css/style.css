@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#card {
+    background: #272727;
+    padding: 90px 0;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button button {
+    display: block;
+    padding: 13px 25px;
+    margin: 23px 0 0;
+    text-transform: capitalize;
+    position: relative;
+    border-color: #FF7A00;
+    background: transparent;
+    color: white;
+}
+
+.button button:last-child {
+    background: #FF7A00;
+    color: white;
+}
+
+.button button:last-child .left-hr {
+    border-color: black;
+}
+
+.button button:last-child .right-hr {
+    background: black;
+}
+
+.button button:last-child .bottom-hr {
+    background: black;
+}
+
+
+
+.button .left-hr {
+    border: 1px solid #FF7A00;
+    position: absolute;
+    width: 20%;
+    left: -4px;
+    top: 5px;
+    transform: rotate(-45deg);
+}
+
+span.right-hr {
+    position: absolute;
+    right: -1px;
+    top: 5px;
+    width: 15%;
+    background: #FF7A00;
+    height: 2px;
+    transform: rotate(50deg);
+}
+
+span.bottom-hr {
+    position: absolute;
+    right: -1px;
+    top: 40px;
+    width: 15%;
+    background: #FF7A00;
+    height: 2px;
+    transform: rotate(-52deg);
+}
+
+
+
+.person {
+    width: 45%;
+    background: black;
+    border: 1px solid #FF7A00;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 87% 100%, 0 100%, 0 42%);
+    border-right: 1px solid #FF7A00;
+    border-width: 1px 1px 1px 1px;
+    padding: 2px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.person p {
+    padding: 10px 20px 35px;
+    font-size: 14px;
+    color: grey;
+    line-height: 1.5;
+}
+
+.person h6 {
+    color: grey;
+    text-align: end;
+    margin: -50px 20px 40px;
+    position: relative;
+    padding: 0 0 0;
+}
+
+.person h6::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: grey;
+    position: absolute;
+    left: 5px;
+    top: 45px;
+}
+
+.name-info h4 {
+    color: white;
+    margin: 0;
+}
+
+.person-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    padding: 20px;
+}
+
+.name-info {
+    padding: 20px 40px 0 20px;
+}
+
+.name-info p {
+    font-size: 14px;
+    color: grey;
+    padding: 5px 0 0;
+}
+
+.review {
+    background: #272727;
+    /* border: 1px solid red; */
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 100% 40%, 20% 40%, 5% 0%);
+    padding: 0px 20px 0 40px;
+    margin: 0 -2px;
+    position: relative;
+}
+
+.border-bottom {
+    width: 133px;
+    height: 20px;
+    background: #FF7A00;
+    position: absolute;
+    right: 0;
+    top: 34px;
+}
+
+.border-left {
+    width: 40px;
+    height: 2px;
+    background: #FF7A00;
+    position: absolute;
+    left: 2px;
+    top: 17px;
+    transform: rotate(55deg);
+}
+
+.border-shape {
+    width: 142px;
+    height: 55px;
+    position: absolute;
+    bottom: -2px;
+    right: -74px;
+    background: #FF7A00;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: rotate(0deg);
+}
